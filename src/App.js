@@ -16,6 +16,8 @@ class App extends Component {
         <NavBar />
         <div className="content">
           <Switch>
+                <Switch>
+
             <Route path="/products/:id" component={ProductDetails} />
             <Route
               path="/products"
@@ -27,6 +29,7 @@ class App extends Component {
             <Route path="/" exact component={Home} />
             <Redirect to="/not-found" />
           </Switch>
+      </Switch>
         </div>
       </div>
     );
