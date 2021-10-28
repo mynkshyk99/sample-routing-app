@@ -24,7 +24,7 @@ class App extends Component {
             <Route path="/posts/:year?/:month?" component={Posts} />
             <Route path="/admin" component={Dashboard} />
             <Route path="/not-found" component={NotFound} />
-            <Route path="/" exact component={Home} />
+            <Route path="/" exact component={Home baba ya sb kyta hai } />
             <Redirect to="/not-found" />
           </Switch>
         </div>
