@@ -7,6 +7,7 @@ import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
 
 ReactDOM.render(
+  //DOM kon hai
   <BrowserRouter>
     <App />
   </BrowserRouter>,
