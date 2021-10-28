@@ -10,6 +10,7 @@ import NotFound from "./components/notFound";
 import "./App.css";
 
 class App extends Component {
+  let tshirt_1 = NONE;
   render() {
     return (
       <div>
