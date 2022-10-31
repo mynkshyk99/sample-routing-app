@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #fff;
 }
 
 .App-logo {
@@ -9,7 +10,7 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 1500px;
   padding: 20px;
   color: white;
 }
@@ -25,4 +26,27 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.App-tshirt {
+  font-size: large;
+}
+
+.App-stickers {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-tshirt-2 {
+  font-size: medium;
+}
+
+.App-tshirt-3 {
+  font-size: medium;
+}
+
+.App-tshirt-3 {
+  font-size: small;
 }
